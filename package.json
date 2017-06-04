@@ -1,0 +1,230 @@
+{
+    "author": "Igor Traskovetskyi",
+    "dependencies": {},
+    "keywords": [],
+    "name": "sketchy",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "configurable"
+        ],
+        "displayName": "Sketchy Weather",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "TEMPERATURE",
+            "CONDITIONS",
+            "BLUETOOTH",
+            "BATTERY",
+            "HOURLY_BEEP",
+            "HOUR_LEAD_ZERO",
+            "SCREEN_COLOR",
+            "DND",
+            "DND_START",
+            "DND_END",
+            "FORECAST_DURATION",
+            "TOMORROW",
+            "AFTER_TOMORROW",
+            "HUMIDITY",
+            "TOMORROW_CONDITIONS",
+            "AFTER_TOMORROW_CONDITIONS",
+            "MAIN_SCREEN_INFO",
+            "FORECAST_ON_ONE_SHAKE"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/s_wind.png",
+                    "name": "IMAGE_SMALL_WIND",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/s_tornado.png",
+                    "name": "IMAGE_SMALL_TORNADO",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/s_thunderstorm.png",
+                    "name": "IMAGE_SMALL_THUNDERSTORM",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/s_snow.png",
+                    "name": "IMAGE_SMALL_SNOW",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/s_rain.png",
+                    "name": "IMAGE_SMALL_RAIN",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/s_rain_thunderstorm.png",
+                    "name": "IMAGE_SMALL_RAIN_THUNDERSTORM",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/s_rain_snow.png",
+                    "name": "IMAGE_SMALL_RAIN_SNOW",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/s_mist_night.png",
+                    "name": "IMAGE_SMALL_MIST_NIGHT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/s_few_clouds_night.png",
+                    "name": "IMAGE_SMALL_FEW_CLOUDS_NIGHT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/s_few_clouds_day.png",
+                    "name": "IMAGE_SMALL_FEW_CLOUDS_DAY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/s_clouds.png",
+                    "name": "IMAGE_SMALL_CLOUDS",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/s_clean_sky_night.png",
+                    "name": "IMAGE_SMALL_CLEAN_SKY_NIGHT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/s_clean_sky_day.png",
+                    "name": "IMAGE_SMALL_CLEAN_SKY_DAY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/tornado.png",
+                    "name": "IMAGE_TORNADO",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/thunderstorm.png",
+                    "name": "IMAGE_THUNDERSTORM",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/snow.png",
+                    "name": "IMAGE_SNOW",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/mist_night.png",
+                    "name": "IMAGE_MIST_NIGHT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/rain_thunderstorm.png",
+                    "name": "IMAGE_RAIN_THUNDERSTORM",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/few_clouds_night.png",
+                    "name": "IMAGE_FEW_CLOUDS_NIGHT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/few_clouds_day.png",
+                    "name": "IMAGE_FEW_CLOUDS_DAY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/rain_snow.png",
+                    "name": "IMAGE_RAIN_SNOW",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/clouds.png",
+                    "name": "IMAGE_CLOUDS",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/clean_sky_night.png",
+                    "name": "IMAGE_CLEAN_SKY_NIGHT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/rain.png",
+                    "name": "IMAGE_RAIN",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/clean_sky_day.png",
+                    "name": "IMAGE_CLEAN_SKY_DAY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/wind.png",
+                    "name": "IMAGE_WIND",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/menu_icon.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_MENU_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[0-9:]",
+                    "compatibility": "2.7",
+                    "file": "fonts/SketchyTimes-b-Custom.ttf",
+                    "name": "FONT_SKETCHY_59",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "compatibility": "2.7",
+                    "file": "fonts/SketchyTimes-b-Custom.ttf",
+                    "name": "FONT_SKETCHY_25",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery"
+        ],
+        "uuid": "4fbee3c1-c137-45ec-b2c5-c006ac410d58",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "6.3.0"
+}
